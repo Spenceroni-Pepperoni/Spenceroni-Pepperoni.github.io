@@ -1,0 +1,174 @@
+/* ===== Base document styles ===== */
+resume {
+  display: block;
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin: 2em auto;
+  max-width: 800px;
+  line-height: 1.5;
+  color: #111;
+}
+
+/* ===== Contact Information ===== */
+contactInfo {
+  display: block;
+  text-align: center;
+  border-bottom: 2px solid #444;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+name {
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+address, phone, email {
+  display: block;
+  font-size: 0.95em;
+  margin: 0.1em;
+}
+
+email {
+  color: #003366;
+}
+
+/* ===== Section Headings ===== */
+objective::before,
+experience::before,
+education::before,
+vol::before,
+skills::before,
+awards::before,
+references::before {
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #888;
+  margin-top: 0.9em;
+  margin-bottom: 0.2em;
+}
+
+objective::before { content: "Objective"; }
+experience::before { content: "Experience"; }
+education::before { content: "Education"; }
+vol::before {content: "Volunteering"}
+skills::before { content: "Skills"; }
+awards::before { content: "Awards"; }
+references::before { content: "References"; }
+
+/* ===== Objective Section ===== */
+objective {
+  display: block;
+  margin: 0.3em 0 1em 0;
+  font-style: italic;
+}
+
+/* ===== Experience Section ===== */
+position {
+  display: block;
+  margin-bottom: 0.8em;
+}
+
+title {
+  display: inline;
+  font-weight: bold;
+}
+
+organization {
+  display: inline;
+  font-style: italic;
+  margin-left: 0.5em;
+}
+
+startDate,
+endDate {
+  display: inline;
+  font-size: 0.9em;
+  color: #555;
+}
+
+details {
+  display: block;
+  margin-left: 1em;
+  margin-top: 0.3em;
+}
+
+item {
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 1.5em;
+}
+
+/* ===== Education Section ===== */
+school {
+  display: block;
+  margin-bottom: 0.8em;
+}
+
+institution {
+  display: block;
+  font-weight: bold;
+}
+
+status, graduationDate, program, gpa {
+  display: inline;
+  margin-right: 0.5em;
+  font-size: 0.95em;
+}
+
+volunteer {
+  display: block;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+vol organization {
+  display: list-item;
+  list-style-type: square;
+  margin-left: 1.5em;
+}
+
+volunteer description {
+  display: block;
+  margin-left: 0.5em;
+  font-style: italic;
+}
+
+
+/* ===== Skills Section ===== */
+category {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+category > name {
+  display: block;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+skill {
+  display: inline-block;
+  background: #f0f0f0;
+  padding: 0.3em 0.6em;
+  margin: 0.2em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* ===== Awards ===== */
+award {
+  display: list-item;
+  list-style-type: square;
+  margin-left: 1.5em;
+}
+
+/* ===== References ===== */
+references note {
+  display: block;
+  margin-top: 0.5em;
+  font-style: italic;
+  text-align: center;
+}

@@ -1,0 +1,111 @@
+{
+    "resume": {
+        "contactInfo": {
+            "name": "Spencer McGrath",
+            "address": "Sykesville, MD 21874",
+            "phone": "(443)-315-8078",
+            "email": [
+                "samcgrath2005@gmail.com",
+                "samcgrath@wpi.edu"
+            ]
+        },
+        "objective": "\n        Attend WPI, majoring in Robotics Engineering and minoring in Education to earn a Master's in Learning and Education.\n    ",
+        "experience": {
+            "position": [
+                {
+                    "title": "Intern",
+                    "organization": "Clarity Cyber",
+                    "startDate": "2022-06",
+                    "endDate": "2024-01",
+                    "details": {
+                        "item": [
+                            "Developed Android applications for government devices",
+                            "Created server-side applications supporting DARPA contracts"
+                        ]
+                    }
+                },
+                {
+                    "title": "Participant",
+                    "organization": "NASA Hunch Program",
+                    "startDate": "2023-09",
+                    "endDate": "2024-07",
+                    "details": {
+                        "item": [
+                            "Developed AI assistant for astronauts in deep space to mitigate the effects of long-term isolation",
+                            "Extensive ethical research to provide best possible care outcomes",
+                            "Presented to industry professionals at Rocket Park in Houston, TX"
+                        ]
+                    }
+                },
+                {
+                    "title": "Mentor/Captain",
+                    "organization": "FRC-888 Robotiators, Glenelg High School",
+                    "startDate": "2020-08",
+                    "endDate": "2024-08",
+                    "details": {
+                        "item": [
+                            "Designed and implemented Java code for dynamic mechanical systems,PID control\n                    loops, visual feedback/feedforward control, and trajectory planning with\n                    omnidirectional drivebase",
+                            "Electrical design for 2021 - 2024 seasons",
+                            "Presented to Maryland Congressional Legislatures at the National Advocacy Conference in 2022",
+                            "Secured over $40,000 in grant funding for the team",
+                            "Captain for 2023-2024 seasons"
+                        ]
+                    }
+                }
+            ]
+        },
+        "education": {
+            "school": [
+                {
+                    "institution": "Worcester Polytechnic Institute",
+                    "program": "Robotics Engineering (Major)",
+                    "graduationDate": "2028-05",
+                    "gpa": 3.3
+                },
+                {
+                    "institution": "Worcester Polytechnic Institute",
+                    "program": "Teacher Prep Program (Minor)",
+                    "graduationDate": "2028-05"
+                }
+            ]
+        },
+        "vol": {
+            "volunteer": [
+                {
+                    "organization": "National Technical Honor Society",
+                    "description": "Provided tutoring for fellow high school students for any PLTW or Computer Science classes"
+                },
+                {
+                    "organization": "RipIt Events",
+                    "description": "Assisted with triathlon and multisport events logistics. As well as lead audio technician for 3 years"
+                },
+                {
+                    "organization": "Glenelg Boosters Club",
+                    "description": "Staffed concession and fry stands at local Maryland events"
+                },
+                {
+                    "organization": "Work On Worcester 2024 and 2025",
+                    "description": "Assisted local elementary school with repainting in 2024. \n                Helped Pawsitively4Pink in creating crafts for fundraising events. "
+                }
+            ]
+        },
+        "skills": {
+            "category": {
+                "name": "Technical",
+                "skill": [
+                    "Object-Orienented: Java (Expert), C++ (Intermediate)",
+                    "Hybrid: Python (Intermediate)",
+                    "Git (Advanced)",
+                    "CAD (SolidWorks, Fusion360, Onshape) (Intermediate)"
+                ]
+            }
+        },
+        "awards": {
+            "award": [
+                "NASA HUNCH National Finalist",
+                "FIRST Robotics Dean’s List Semi-Finalist 2023"
+            ]
+        },
+        "references": {"note": "Will provide references upon request"}
+    }
+}
