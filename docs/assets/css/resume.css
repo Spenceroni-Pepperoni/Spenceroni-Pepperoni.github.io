@@ -54,7 +54,7 @@ references::before {
 objective::before { content: "Objective"; }
 experience::before { content: "Experience"; }
 education::before { content: "Education"; }
-vol::before {content: "Volunteering"}
+vol::before {content: "Volunteering / Other Activities"}
 skills::before { content: "Skills"; }
 awards::before { content: "Awards"; }
 references::before { content: "References"; }
@@ -185,7 +185,7 @@ nav{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 200%;
+	font-size: 2100%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -198,8 +198,8 @@ nav{
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
-		height: 5em;
-		line-height: 4.5em;
+		height: 4.5em;
+		line-height: 3.75em;
 	}
 
 		#nav ul {
